@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Website</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fa-solid fa-stethoscope"></i></i>ORTHODONTICS</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Services</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Features</a>
+          </li>
+          <button class="navbar__btn"  class="button" >Sign Up</button>
+        </ul>
+      </div>
+    </nav>
+    </div>
+    
+    <div class="modal hidden">
+        <button class="btn--close-modal">&times;</button>
+        <h2 class="modal__header">
+          kindly fill in your details<br />
+           <span class="highlight">below</span>
+        </h2>
+        <form action="form.html" class="modal__form" method="GET">
+            <label >Title</label>
+            <!-- <select type="text" style="height: 4rem; font-size:2rem;
+            border-radius: 1rem;">
+          <option id="text" style="font-size:2rem;">Prof</option>
+          <option id="Dr" style="font-size:2rem;">Dr</option>
+          <option id="Mr" style="font-size:2rem;">Mr</option>
+          <option id="Mrs" style="font-size:2rem;">Mrs</option>
+          </select> -->
+            <input type="text"  placeholder="Prof, Dr, Mr, Mrs"/>
+            <label >First Name</label>
+            <input type="text" id="first" />
+            <label >Last Name</label>
+            <input type="text" id="last" />
+            <label>Email Address</label>
+            <input type="email" id="email" required placeholder="@email"/>
+            <label>Password</label>
+            <input type="password" id="email" required placeholder="different characters"/>
+            <button class="btn" type="submit">Next step &rarr;</button>
+          </form>
+      </div>
+      <div class="overlay hidden"></div>
+    
+      <div class="main">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>ORTHODONTICS</h1>
+            <h2>ENCHANCE YOUR BEAUTY</h2>
+            <p>Using braces is cool and affordable</p>
+            <button class="main__btn"><a href="#">Know more...</a></button>
+          </div>
+          <div class="main__img--container">
+            <img id="main__img" src="./image/pic.svg" />
+          </div>
+        </div>
+      </div>
+
+    <div class="slidehead">
+          <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+                <div class="slide first">
+                    <h9>Enchance your smile</h9>
+                    <img src="./image/download.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h9>Gives you a beautiful dentition</h9>
+                    <img src="./image/hwtys.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h9>Adds quality to your smile</h9>
+                    <img src="./image/hsh.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <h9>It's very cool and simple</h9>
+                    <img src="./image/uwhw.jpg" alt="">
+                </div>
+  
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+  </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+       
+
+        <div class="footer__container">
+          <div class="footer__links">
+            <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/sign__up">Service</a> <a href="/">Policy</a>
+                <a href="/">Careers</a> <a href="/">Quality</a>
+                <a href="/">Terms of Service</a>
+              </div>
+              <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/">Contact</a> <a href="/">Support</a>
+                <a href="/">Donation</a> <a href="/">Sponsorships</a>
+              </div>
+            </div>
+            <div class="footer__link--wrapper">
+              <div class="footer__link--items">
+                <h2>Videos</h2>
+                <a href="/">Lectures</a> <a href="/">Services</a>
+                <a href="/">Agency</a> <a href="/">Influencer</a>
+              </div>
+              <div class="footer__link--items">
+                <h2>Social Media</h2>
+                <a href="/">Instagram</a> <a href="/">Facebook</a>
+                <a href="/">Youtube</a> <a href="/">Twitter</a>
+              </div>
+            </div>
+          </div>
+          <section class="social__media">
+            <div class="social__media--wrap">
+              <div class="footer__logo">
+                <a href="/" id="footer__logo"><i class="fa-solid fa-stethoscope"></i>ORTHODONTICS</a>
+              </div>
+              <p class="website__rights">© NEXT 2022. It's a pleasure </p>
+              <div class="social__icons">
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <i class="fab fa-facebook"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Youtube"
+                >
+                  <i class="fab fa-youtube"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="Twitter"
+                >
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a
+                  class="social__icon--link"
+                  href="/"
+                  target="_blank"
+                  aria-label="LinkedIn"
+                >
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        
+        
+    <script src="index.js"></script>
+  </body>
+</html>
