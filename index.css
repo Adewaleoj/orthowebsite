@@ -462,6 +462,7 @@
     justify-self: center;
     margin-top: 1rem;
     color: rgb(231, 48, 48);
+    max-width: 50%S;
   }
   
   .btn--close-modal {
@@ -534,6 +535,8 @@
     grid-column: 1 / span 2;
     justify-self: center;
     margin-top: 1rem;
+    background: none;
+    font-weight: bolder;
   }
   
   .btn--close-modal {
@@ -551,6 +554,10 @@
   .hidden {
     visibility: hidden;
     opacity: 0;
+  }
+
+  .btn{
+    /* max-width: 50%; */
   }
 }
 
